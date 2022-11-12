@@ -1,0 +1,8 @@
+op=int(input("Ingrese un número: "))
+x = op/2
+for i in range(20):
+    if x * x  == op:
+        print(f"La raíz cuadrada de {op} es {x}")
+        break
+    else: 
+        x = (x + (op/x))/2
